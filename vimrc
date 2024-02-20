@@ -3,6 +3,8 @@ set nocompatible
 set nobackup
 set noundofile
 set noswapfile
+let g:zig_fmt_autosave = 0
+
 " Helps force plugins to load correctly when it is turned back on below
 filetype off
 
@@ -32,7 +34,7 @@ set encoding=utf-8
 " Whitespace
 set wrap
 set textwidth=79
-set formatoptions=tcqrn1
+set formatoptions=cqrn1
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
